@@ -1,0 +1,14 @@
+{
+  "name": "richard-github-pages",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node src/app.js",
+    "build": "npm install && NODE_ENV=production webpack"  // Add this script for production build
+  },
+  "dependencies": {
+    "express": "^4.18.2"  // Example dependency (replace with your actual dependencies)
+  },
+  "devDependencies": {
+    "webpack": "^5.72.1"  // Example devDependency for building production assets (if needed)
+  }
+}
