@@ -1,5 +1,5 @@
 const chatConfig = {
-  apiHost: process.env.tjak9andtJOs8gG55RUpv3QMkwxDq22C,
+  apiHost: 'https://flowise-repsix.onrender.com',
   chatflowid: "c509ba88-4cb2-4632-98d3-b74f5a2e55ef",
                     apiHost: "https://flowise-repsix.onrender.com",
                     theme: {
