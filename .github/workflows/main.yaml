@@ -12,7 +12,7 @@ jobs:
       - uses: actions/checkout@v3
 
       - name: Build (replace with your build command)
-        run: npm install && npm run build  # Example build command for a Node.js project
+        run: npm install # Example build command for a Node.js project
 
       - name: Deploy to staging (replace with your deployment command)
         uses: actions/upload-artifact@v3
