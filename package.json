@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "scripts": {
     "start": "node src/app.js",
-    "build": "npm install && NODE_ENV=production webpack" 
+    "build": "mkdir -p dist && cp index.js dist" 
   },
   "dependencies": {
     "express": "^4.18.2" 
@@ -12,3 +12,4 @@
     "webpack": "^5.72.1"
   }
 }
+
